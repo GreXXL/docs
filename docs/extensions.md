@@ -28,7 +28,7 @@ The extension manager allows an admin user to install any composer package. Only
 
 ## Finding Extensions
 
-Flarum has a wide ecosystem of extensions, most of which are open source and free. To find new and awesome extensions, visit the [Extensions](https://discuss.flarum.org/t/extensions) tag on Flarum's community forums. The unofficial [Extiverse extension database](https://extiverse.com/) is also a great resource.
+Flarum has a wide ecosystem of extensions, most of which are open source and free. To find new and awesome extensions, visit the [Extensions](https://discuss.flarum.org/t/extensions) tag on Flarum's community forums. The official [extension database](https://flarum.org/extensions/) is  the most complete resource.
 
 ## Installing Extensions
 
@@ -96,10 +96,10 @@ If you want to add a repository from a VCS (e.g. GitHub, GitLab, BitBucket, etc)
 
 ### Adding a composer repository
 
-Extiverse provides access to premium extensions. It is a good example of a composer repository. You would specify the URL as `https://extiverse.com/composer/` and the name as `extiverse`. You would also need to enter an authentication method through the **New authentication method** button. The token can be generated from your Extiverse account's subscriptions page.
+Flarum.org provides access to premium extensions. It is a good example of a composer repository. You would specify the URL as `https://flarum.org/composer/` and the name as `flarumorg`. You would also need to enter an authentication method through the **New authentication method** button. The token can be generated from your Flarum.org account's subscriptions page.
 
 * Type: `HTTP Bearer`
-* Host: `extiverse.com`
+* Host: `flarum.org`
 
 ![Configure repositories](/en/img/config-repositories.png)
 
